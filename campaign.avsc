@@ -1,0 +1,23 @@
+{
+  "namespace": "campaign.avro",
+  "type": "record",
+  "name": "httplog",
+  "fields": [
+    {
+      "name": "timestamp",
+      "type": "string"
+    },
+    {
+      "name": "http_method",
+      "type": "string"
+    },
+    {
+      "name": "http_path",
+      "type": "string"
+    },
+    {
+      "name": "user_id",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "namespace": "campaign_window_session.avro",
+  "type": "record",
+  "name": "campaign_window_session",
+  "fields": [
+    {
+      "name": "user_id",
+      "type": "string"
+    },
+    {
+      "name": "session_start",
+      "type": "string"
+    },
+    {
+      "name": "session_end",
+      "type": "string"
+    },
+    {
+      "name": "campaigns",
+      "type": "string"
+    },
+    {
+      "name": "rewards_issued",
+      "type": "string"
+    },
+    {
+      "name": "reward_driven_by_campaign_view",
+      "type": "string"
+    }
+  ]
+}

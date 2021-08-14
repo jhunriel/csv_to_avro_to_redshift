@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+psycopg2 = "*"
+psycopg2-binary = "*"
+sqlalchemy = "*"
+avro = "*"
+jupyter = "*"
+apache-beam = "*"
+boto3 = "*"
+pyspark = "*"
+numpy = "*"
+matplotlib = "*"
+seaborn = "*"
+sklearn = "*"
+scikit-learn = "*"
+helper = "*"
+yellowbrick = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.9"
