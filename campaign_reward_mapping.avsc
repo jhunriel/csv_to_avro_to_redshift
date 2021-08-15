@@ -1,0 +1,15 @@
+{
+  "namespace": "campaign_reward_mapping.avro",
+  "type": "record",
+  "name": "campaign_reward_mapping",
+  "fields": [
+    {
+      "name": "campaign_id",
+      "type": "string"
+    },
+    {
+      "name": "reward_id",
+      "type": "string"
+    }
+  ]
+}
