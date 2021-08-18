@@ -33,7 +33,7 @@ begin
 		,date(floor_date_sgt) as Date
 		,floor_date_sgt::time as Time
 	from campaign_transactions
-	where date(transaction_date_sgt) between _from and _from
+	where date(transaction_date_sgt) between _from and _to
 	group by 2,3
 	order by 1 desc,2 desc, 3 desc
     ;
